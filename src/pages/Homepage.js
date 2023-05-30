@@ -1,9 +1,11 @@
 import React from "react";
 import "./Homepage.css";
 import vecto from "../images/Screenshot 2023-05-30 215145.png";
+import Navbar from "../components/Navbar";
 const Homepage = () => {
   return (
     <div className="homepage">
+      <Navbar />
       <div className="homepage--first--section">
         <div className="homepage--first--heading">
           Live Chat software that let's you chat from any where!
