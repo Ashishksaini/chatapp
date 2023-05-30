@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.homepage--first--section {
+  background-image: linear-gradient(#cadedf, white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.homepage--first--heading {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+}
+.homepage--first--para {
+  padding: 10px;
+  font-size: 20px;
+}
+.homepage--first--image {
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 1px;
+  margin: 30px;
+  margin-bottom: 0px;
+  width: 50%;
+}
+.homepage--first--button {
+  background-color: #16796f;
+  font-size: 17px;
+  color: azure;
+  padding: 15px;
+  border-radius: 20px;
+}
+.homepage--first--button:hover {
+  background-color: #7cb7af;
+  color: azure;
+  padding: 15px;
+  border-radius: 20px;
+}
+.homepage--second--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.homepage--second--image {
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 1px;
+  margin: 30px;
+  width: 50%;
+}
+.homepage--second--heading {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+}
+.homepage--second--para {
+  padding: 10px;
+  font-size: 20px;
+}
+.homepage--second--button {
+  background-color: #16796f;
+  font-size: 17px;
+  color: azure;
+  padding: 15px;
+  border-radius: 20px;
+}
+.homepage--second--button:hover {
+  background-color: #7cb7af;
+  color: azure;
+  padding: 15px;
+  border-radius: 20px;
+}
+.end--page {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.end--page--image {
+  border-radius: 50%;
+}
+.end--page--section2 {
+  width: 60%;
+  display: flex;
+}
+.end--page--element {
+  margin: auto;
+  background-color: #9ca89e;
+  border-radius: 100%;
+  width: 60%;
+  height: 60%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.end--page--heading {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 5px black;
+}
+.end--page--cont {
+  color: #cadedf;
+  font-size: 15px;
+  padding: 10px;
+}
