@@ -1,0 +1,29 @@
+.footer--container {
+  background-color: #293e3b;
+  color: aliceblue;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.footer--div1 {
+  width: 60%;
+  padding: 10px;
+}
+.footer--div2 {
+  padding: 20px;
+}
+.footer--div2 li {
+  list-style: none;
+}
+.footer--icons {
+  display: flex;
+  justify-content: center;
+}
+.footer--end {
+  padding: 20px;
+}

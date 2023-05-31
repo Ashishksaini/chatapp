@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="Logo">chat-app</div>
+      <div className="Logo">Videochat-app</div>
       <div>
         <ul className="navbar--elements">
           <Link to="/">

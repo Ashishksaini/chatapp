@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import vecto from "../images/Screenshot 2023-05-30 215145.png";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -76,6 +77,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
