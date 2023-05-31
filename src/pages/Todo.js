@@ -7,7 +7,10 @@ import NotificationsIcon from '@mui/icons-material/Notifications'
 import SearchIcon from '@mui/icons-material/Search'
 import { TabScrollButton } from '@mui/material'
 const Todo = () => {
-    const data =[];
+    const data = [
+      { date: '2023-05-31', time: '12:00', name: 'Aman Parashar' },
+      { date: '2023-06-31', time: '13:50', name: 'Tom Schmedtmann' }
+    ]
     const [val, setval] = useState(data);
     const [valid, setvalid] = useState(false);
     useEffect(() => {
@@ -78,7 +81,7 @@ const Todo = () => {
                 <div>
                  Venue    : <input type="datetime-local" className='date_time'/>
                 </div>
-                    <button onClick={handleAdd}>Add</button>
+                    <button className='addCard' onClick={handleAdd}>Add</button>
                 </div>
             </div>
         <div className='todo_footer'>
