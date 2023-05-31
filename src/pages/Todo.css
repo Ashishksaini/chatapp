@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.todo{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+.todo_nav{
+    width: 93%;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.todo_footer{
+    flex: 0.2;
+    position: fixed;
+    bottom: 0px;
+}
+.todo_nav_message{
+
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px 0px 0px 20px;
+    width: 100%;
+    flex-direction: column;
+}
+.todo_nav_icons{
+    /* margin: 10px 20px 0px 20px; */
+    margin: 10px 0px 0px 0px;
+    position: absolute;
+    right: 5%;
+}
+.todo_nav_icon{
+    width: 50px;
+    background: 0;
+    border: 0;
+    
+}
+.todo_nav_icon:hover{
+    cursor: pointer;
+    background-color: rgb(229, 228, 226,0.2);
+    border: 0px;
+    border-radius:15px;
+}
+.todo_meeting_options{
+    margin-top: 2px;
+    height:50px;
+    width: 90%;
+    border: solid 2px  ;
+    border-radius: 25px;
+    background-color: rgb(229, 228, 226,0.2);
+    box-shadow: 2px 2px 2px  ;
+    display: flex;
+}
+.todo_meeting_option{
+    height:80%;
+    width: 45%;
+    margin: 5px 15px;
+    background:none;
+    border: 0px;
+}
+.todo_meeting_option:nth-child(1){
+    cursor: pointer;
+    background-color: #7CB7AF;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.todo_meetings{
+    /* width: 100%; */
+    position: absolute;
+    bottom: 50px;
+    top: 150px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    width: 89%;
+}
+.todo_card_add{
+    background-color: #f55a5a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 32px;
+}
+.todo_card_add_button{
+    position: relative;
+    top: 12px;
+    left: 12px;
+    width:25px;
+    height: 25px;
+    background-color: white;
+    border:none;
+    border-radius: 50%;
+    color:#f55a5a
+    
+}
+.todo_card_add_button:hover{
+    cursor: pointer;
+    
+}
+.cardAdder_content{
+    position: absolute;
+
+    left:20% ;
+    right: 20%;
+    background:white;
+    top: 300px;
+    bottom: 100px;
+    border: solid 1px black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    z-index: 3;
+
+}
+.cardAdder_cover{
+    position: absolute;
+
+    left:19% ;
+    right: 18%;
+    z-index: 2;
+    top: 330px;
+    bottom: 80px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+.hidden{
+    display: none;
+}
+
